@@ -1,0 +1,273 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!********** Initialization **********>
+<!***** Checknew script used to display the new.gif icon depending on expiration date
+<!*****          See JR's Secrets for code examples
+<!***** THE DATE OF LAST UPDATE IS THE DATE OF LAST CHANGE TO THIS FILE!!!
+
+
+<HTML>
+  <HEAD>
+    <TITLE>Ryan Knives</TITLE>
+	<META NAME="DESCRIPTION" CONTENT="View samples of custom handmade Ryan Knives and current eBay auctions. "> 
+    <META NAME="KEYWORDS" content="Hobby, Collectors, Hunting, Custom Knives, Knife, Custom Knife, Knives, Handmade">
+    <META NAME="Author" CONTENT="%6A%72%79%61%6E%40%77%65%73%74%72%69%76%2E%63%6F%6D">
+	<META NAME="revisit_after" content="15 days">
+	<SCRIPT LANGUAGE="JavaScript">
+	  <!-- hide script from old browsers
+	  <!-- Original:  Nicolas http://www.javascript-page.com -->
+	  function checknew(date) {
+		expdate = new Date(date);
+		curdate = new Date();
+		if (expdate > curdate)
+		  document.write("<img src=new.gif><br>");
+    	}	
+	-->
+	</SCRIPT>
+
+	<script language="JavaScript1.1">
+	  <!-- hide script from old browsers
+  	  //*****************************************
+	  // Blending Image Slide Show Script- 
+	  // © Dynamic Drive (www.dynamicdrive.com)
+	  // For full source code, visit http://www.dynamicdrive.com/dynamicindex14/image4_dev.htm
+	  //*****************************************
+
+	  //specify interval between slide (in milliseconds)
+	  var slidespeed=2000
+
+	  //specify images
+	  var slideimages=new Array("http://www.wrtc.com/jryan/ryanknives/sn116_thumb.jpg","http://www.wrtc.com/jryan/ryanknives/sn118_thumb.jpg","http://www.wrtc.com/jryan/ryanknives/sn119_thumb.jpg","http://www.wrtc.com/jryan/ryanknives/sn120_thumb.jpg","http://www.wrtc.com/jryan/ryanknives/sn121_thumb.jpg","http://www.wrtc.com/jryan/ryanknives/sn122_thumb.jpg","http://www.wrtc.com/jryan/ryanknives/sn124_thumb.jpg","http://www.wrtc.com/jryan/ryanknives/sn126_thumb.jpg","http://www.wrtc.com/jryan/ryanknives/sn127_thumb.jpg")
+
+	  //specify corresponding links
+	  var slidelinks=new Array("http://www.wrtc.com/jryan/ryanknives/knives.htm","http://www.wrtc.com/jryan/ryanknives/knives.htm","http://www.wrtc.com/jryan/ryanknives/knives.htm","http://www.wrtc.com/jryan/ryanknives/knives.htm","http://www.wrtc.com/jryan/ryanknives/knives.htm","http://www.wrtc.com/jryan/ryanknives/knives.htm","http://www.wrtc.com/jryan/ryanknives/knives.htm","http://www.wrtc.com/jryan/ryanknives/knives.htm","http://www.wrtc.com/jryan/ryanknives/knives.htm")
+
+	  var newwindow=0 //open links in new window? 1=yes, 0=no
+
+ 	  var imageholder=new Array()
+	  var ie=document.all
+	  for (i=0;i<slideimages.length;i++){
+	       imageholder[i]=new Image()
+	       imageholder[i].src=slideimages[i]
+	  }
+
+	  function gotoshow(){
+	    if (newwindow)
+	        window.open(slidelinks[whichlink])
+	    else
+	        window.location=slidelinks[whichlink]
+	  }
+	-->
+	</script>
+  </HEAD>
+
+  
+  <Body background="paper08.jpg">
+    <p align=center>
+    <!********** Heading **********>
+    <img src="ryanknives3.gif" alt="Ryan Knives Heading Gif" height=60 width=468 border="0">
+
+	<!-- 10/01/2020 Added buttons when removing deprecated APPLETS-->
+	<br><br>
+	<A HREF="index.htm" TARGET="_top"><IMG SRC="b-home-dark.jpg" WIDTH="120" HEIGHT="60" BORDER="0" ALT="Home"></a>
+	<A HREF="knives.htm" TARGET="_top"><IMG SRC="b-knives-lite.jpg" WIDTH="120" HEIGHT="60" BORDER="0" ALT="Knives"></a>
+	<A HREF="ebay.htm" TARGET="_top"><IMG SRC="b-ebay-lite.jpg" WIDTH="120" HEIGHT="60" BORDER="0" ALT="eBay"></a>
+	<A HREF="guarantee.htm" TARGET="_top"><IMG SRC="b-guarantee-lite.jpg" WIDTH="120" HEIGHT="60" BORDER="0" ALT="Guarantee"></a>
+	<A HREF="about.htm" TARGET="_top"><IMG SRC="b-about-lite.jpg" WIDTH="120" HEIGHT="60" BORDER="0" ALT="About"></a><br>
+	
+	<!--10/01/2020 Removed deprecated APPLETS
+    <!This will put javascript buttons that change color when mouse is over them>
+    <!The Code AND param filenames below MUST be as listed, with upper AND lowercase letters...dont know why but it works.>
+    <table border="0" align="center" cellspacing="1" bordercolordark="#800000" bordercolorlight="#FF00FF">
+      <tr>
+        <td align="center">
+	      <APPLET CODE="URLImageButton.class" WIDTH="120" HEIGHT="60">
+            <PARAM NAME="buttonImage" VALUE="b-home-dark.jpg">
+            <PARAM NAME="mouseOverImage" VALUE="b-home-dark.jpg">
+            <PARAM NAME="url" VALUE="index.htm">
+	        <PARAM NAME="urlDescription" VALUE="Ryan Knives Home Page">
+	      </APPLET>
+	    </td>
+        <td align="center">
+		  <APPLET CODE="URLImageButton.class" WIDTH="120" HEIGHT="60">
+            <PARAM NAME="buttonImage" VALUE="b-knives-lite.jpg">
+            <PARAM NAME="mouseOverImage" VALUE="b-knives-dark.jpg">
+            <PARAM NAME="url" VALUE="knives.htm">
+	        <PARAM NAME="urlDescription" VALUE="Knife Photos">
+	      </APPLET>
+	    </td>
+        <td align="center">
+		  <APPLET CODE="URLImageButton.class" WIDTH="120" HEIGHT="60">
+            <PARAM NAME="buttonImage" VALUE="b-ebay-lite.jpg">
+            <PARAM NAME="mouseOverImage" VALUE="b-ebay-dark.jpg">
+            <PARAM NAME="url" VALUE="ebay.htm">
+	        <PARAM NAME="urlDescription" VALUE="Ebay Auctions">
+	      </APPLET>
+	    </td>
+        <td align="center">
+		  <APPLET CODE="URLImageButton.class" WIDTH="120" HEIGHT="60">
+            <PARAM NAME="buttonImage" VALUE="b-guarantee-lite.jpg">
+            <PARAM NAME="mouseOverImage" VALUE="b-guarantee-dark.jpg">
+            <PARAM NAME="url" VALUE="guarantee.htm">
+	        <PARAM NAME="urlDescription" VALUE="Guarantee">
+	      </APPLET>
+	    </td>
+        <td align="center">
+		  <APPLET CODE="URLImageButton.class" WIDTH="120" HEIGHT="60">
+            <PARAM NAME="buttonImage" VALUE="b-about-lite.jpg">
+            <PARAM NAME="mouseOverImage" VALUE="b-about-dark.jpg">
+            <PARAM NAME="url" VALUE="about.htm">
+	        <PARAM NAME="urlDescription" VALUE="About Maker">
+	      </APPLET>
+	    </td>
+      </tr>		 		 		 
+    </table>  <p align=center>  <!***** After every /table I had to copy this here for NS to work *****>
+    -->
+	
+    <!--
+    //*****************************************
+    // Blending Image Slide Show Script- 
+    // © Dynamic Drive (www.dynamicdrive.com)
+    // For full source code, visit http://www.dynamicdrive.com/dynamicindex14/image4_dev.htm
+    //***************************************** -->
+	<a href="javascript:gotoshow()"><img src="http://www.wrtc.com/jryan/ryanknives/sn124_thumb.jpg" name="slide" border=0 style="filter:blendTrans(duration=2)" width=280 height=70></a>
+	<script language="JavaScript1.1">
+	  <!-- hide script from old browsers
+	  var whichlink=0
+	  var whichimage=0
+	  var blenddelay=(ie)? document.images.slide.filters[0].duration*2000 : 0
+	  function slideit(){
+	    if (!document.images) return
+	    if (ie) document.images.slide.filters[0].apply()
+	    document.images.slide.src=imageholder[whichimage].src
+	    if (ie) document.images.slide.filters[0].play()
+	    whichlink=whichimage
+	    whichimage=(whichimage<slideimages.length-1)? whichimage+1 : 0
+	    setTimeout("slideit()",slidespeed+blenddelay)
+	  }
+	  slideit()
+	-->  
+	</script>
+	<br><br>
+
+    <!-- Make table w/3 columns for text on page, leave 13% margin on each side of text -->
+    <table border="0" width="100%" cellspacing="1">
+      <tr>
+        <td width="10"></td>
+        <td width="80%"><font color="#000000">
+		  <!--Script for displaying greeting on first line -->
+		  <script language="Javascript">
+	  	    <!-- hide script from old browsers
+		  	//Visit java-scripts.net or http://wsabstract.com for this script
+		    now = new Date
+			if (now.getHours() < 5) 
+    		  document.write("What are you doing up so late?")
+			else if (now.getHours() < 12) 
+			  document.write("Good morning!")
+			else if (now.getHours() < 17) 
+    		  document.write("Good afternoon!")
+			else 
+    		  document.write("Good evening!")
+			-->
+ 		  </script>
+
+          Welcome to our website...and thanks for visiting.  
+          <p>
+		  This site was created to allow my Dad (Greig) an opportunity to 
+		  pursue his art of knife making while at the same time being able to recoup some
+		  of his costs by occasionally offering knives for auction via eBay.  Unfortunately, in Sept 2001 he suffered a heart attack and passed away...so <font color="#880000"><b><i>Ryan Knives</i></b></font> will 
+		  no longer exist except in the hearts of his family and all who had the opportunity to own
+		  one of his works of art.
+	      <p>
+		  In Jan 2003 we sold the last remaining knife that we had made available from his collection.
+		  <p>
+		  Please take a few minutes to read about Dad on the <i><b><a href="about.htm">About Maker</a></b></i> page
+		  and review samples of his work on the <i><b><a href="knives.htm">Knives</a></b></i> page. 
+          <p>
+          If you have any questions or comments on his work, please don't hesitate 
+		  to <a href="mailto:%69%6E%66%6F%40%52%79%61%6E%4B%6E%69%76%65%73%2E%63%6F%6D?subject=Looking%20for%20more%20info%20on%20Ryan%20Knives">email</a>
+		  and I'll attempt to answer as best I can...Thanks...JR<br><br>
+          </font>
+		</td>
+        <td width="10%"></td>
+      </tr>
+    </table>
+
+	<center>
+	<!-- Display Mail link -->
+	<a href="mailto:%69%6E%66%6F%40%52%79%61%6E%4B%6E%69%76%65%73%2E%63%6F%6D?subject=Looking%20for%20more%20info%20on%20Ryan%20Knives"><img src="email-handbox.gif" alt="Email Link" width="34" height="34" border="0"></a>
+	<br><br>
+	   
+	<!--10/01/2020 Removed dead link 
+    <!--Site Meter Counter 
+	<script type="text/javascript" language="JavaScript">var site="sm4ryanknives"</script>
+	<script type="text/javascript" language="JavaScript1.2" src="http://sm4.sitemeter.com/js/counter.js?site=sm4ryanknives">
+	</script>
+	<noscript>
+      <a href="http://sm4.sitemeter.com/stats.asp?site=sm4ryanknives" target=_top>
+	  <img src="http://sm4.sitemeter.com/meter.asp?site=sm4ryanknives" title="Site Meter" border=0></a>
+	</noscript>
+	-->
+	  	
+    <!--********** Credits **********-->    
+	<!--10/01/2020 Renamed JR Secrets link after deleting website from WRTC -->
+	Designed by <a href = "http://www.wrtc.com/jryandummy"><font size="+1">JR's Secrets</font></a>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+	<!--********** Last Modified Date **********-->
+	<SCRIPT Language="JavaScript"> 
+	  <!-- hide script from old browsers
+	  var modDate = new Date(document.lastModified)   
+	  var modYear = modDate.getYear()   
+	  if(modYear<1000) modYear+=1900
+	    document.write("Last Updated " + (modDate.getMonth()+1) + "/" + modDate.getDate() + "/" + modYear) 
+	-->
+	</SCRIPT>
+
+	<!--********** Awards **********-->
+ 	<br>
+	<hr size="1">	
+	<!-- 10/01/2020 Removed bad link> 	
+	<a href="http://www.goldenwebawards.com"><img src="http://www.goldenwebawards.com/images/webawardf2000.gif" alt="Golden Web Award Winner" width="70" height="105" border="0" ></a>
+	&nbsp &nbsp &nbsp &nbsp 
+	-->
+    
+	<a href="http://www.goldenwebawards.com/officialawardwinner.shtml"><img src="http://www.goldenwebawards.com/images/webaward2001b.gif" width="101" height="139" border="0"></a>
+	&nbsp &nbsp &nbsp &nbsp 
+	<a href="http://www.customknifedirectory.com/"><img src="cdkwinner.jpg" alt="Custom Knife Directory Award Winner" height=100 width=100 border=0></a>
+	<!--&nbsp &nbsp &nbsp &nbsp 
+	<a href="http://www.onlineknifeshow.com/"><img src="onlineknifeshow.gif" alt="Online Knife Show Link" border=0 height=90 width=200></a> -->
+	  
+	<!-- 10/01/2020 Removed
+    <!********** IE/Netscape Links **********>
+	<hr size="1">	 	
+    <font size = "-1">
+      Best when viewed with Microsoft Internet Explorer 5.0+ or Netscape Navigator 4.5+<br>
+      using a higher resolution and small font size<br>
+    </font>
+    -->
+	  
+    </center>
+  </BODY>
+</HTML>
+
+<!-- Preload images used in subsequent pages -->
+<script language=javascript>
+	 <!-- // hide script from old browsers
+	 imgNames = new Array("http://www.wrtc.com/jryan/ryanknives/sn116 thumb.jpg",
+	 		  "http://www.wrtc.com/jryan/ryanknives/collection-2thumb.jpg",
+			  "http://www.wrtc.com/jryan/ryanknives/sn116_thumb.jpg",
+	 		  "http://www.wrtc.com/jryan/ryanknives/sn118_thumb.jpg",
+ 	 		  "http://www.wrtc.com/jryan/ryanknives/sn119_thumb.jpg",
+ 	 		  "http://www.wrtc.com/jryan/ryanknives/sn120_thumb.jpg",
+	 		  "http://www.wrtc.com/jryan/ryanknives/sn121_thumb.jpg", 
+ 	 		  "http://www.wrtc.com/jryan/ryanknives/sn122_thumb.jpg",
+ 	 		  "http://www.wrtc.com/jryan/ryanknives/sn124_thumb.jpg",
+	 		  "http://www.wrtc.com/jryan/ryanknives/sn126_thumb.jpg",
+   	  	      "http://www.wrtc.com/jryan/ryanknives/knifshar.gif" )					 
+	 loadImgs = new Array()
+	 for(i=0; i < imgNames.length; i++) {
+	   loadImgs[i] = new Image;
+  	   loadImgs[i].src = imgNames[i];
+     }
+     // end hiding -->
+</script>

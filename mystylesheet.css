@@ -1,0 +1,7 @@
+A { color: blue;
+font-weight: normal;
+text-decoration:underline; }
+
+A:hover { color: red;
+font-weight: normal;
+text-decoration: none; }
