@@ -1,12 +1,14 @@
-name: Weekly Traffic Report
+name: Monthly Traffic Report
 on:
   schedule:
-    - cron: '0 0 * * 0' # Runs every Sunday at midnight
-  workflow_dispatch:      # This adds a "Run" button for testing
+    - cron: '0 0 1 * *' # Midnight on the 1st of every month
+  workflow_dispatch:
 
 jobs:
-  run-stats:
+  report:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to save the report
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
