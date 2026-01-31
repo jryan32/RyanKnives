@@ -1,0 +1,17 @@
+name: Weekly Traffic Report
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+  workflow_dispatch:      # This adds a "Run" button for testing
+
+jobs:
+  run-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      - name: Generate Traffic Stats
+        uses: jgehrcke/github-repo-stats@v1
+        with:
+          ghtoken: ${{ secrets.TRAFFIC_REPORT_TOKEN }}
